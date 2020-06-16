@@ -24,6 +24,21 @@ const server = http.createServer((req,res) =>{
         });
 
     }
+
+
+    /*
+
+    if(req.url === '/api/users'){
+        const users = [
+            {name:'Bob' , age:40},
+            {name: 'John', age:50}
+        ];
+        res.writeHead(200 , {'Content-Type': 'application/json'});
+        res.end(JSON.stringify(users));
+    };
+
+    */
+
 });
 
 const PORT = process.env.PORT || 5000;
