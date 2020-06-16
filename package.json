@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "os.js",
+  "scripts": {
+    "start": "node server_nou",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lostxap",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
